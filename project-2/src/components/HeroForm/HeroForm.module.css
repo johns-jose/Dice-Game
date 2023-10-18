@@ -1,0 +1,59 @@
+.hero_from {
+    display: flex;
+    gap: 81px;
+    max-width: 1161px;
+    margin-left: 112px;
+    /* height:calc(100vh-(72*3)); */
+}
+
+.heroform_content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.content_form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.btn_top {
+    display: flex;
+    gap: 24px;
+}
+
+.input_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input_container input { 
+    height: 40px;
+}
+.input_container label {
+    position: absolute;
+    left: 8px;
+    top: -12px;
+    padding: 0 10px;
+    background-color: white;
+}
+
+.submit_btn{
+    display:flex;
+    justify-content: end;
+}
+
+.heroform_image{
+    width: 500px;
+    height: 480px;
+}
+.heroform_image img{
+width: 100%;
+height: 100%;
+object-fit:cover;
+
+}
